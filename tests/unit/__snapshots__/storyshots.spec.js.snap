@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots App Screen all components 1`] = `
+<div
+  style="text-align: center;"
+>
+  <div
+    style="text-align: center;"
+  >
+    <div
+      style="text-align: center;"
+    >
+      <div>
+        <h3>
+          Work!
+        </h3>
+         
+        <div
+          class="timer work"
+        >
+          <h1
+            class="digits"
+          >
+            <span>
+              01:00
+            </span>
+          </h1>
+        </div>
+         
+        <div
+          class="controls"
+        >
+          <button
+            title="start"
+          >
+            Start
+          </button>
+           
+          <button
+            disabled="disabled"
+            title="pause"
+          >
+            Pause
+          </button>
+           
+          <button
+            disabled="disabled"
+            title="stop"
+          >
+            Stop
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Controls paused state 1`] = `
+<div
+  class="controls"
+>
+  <button
+    title="start"
+  >
+    Start
+  </button>
+   
+  <button
+    disabled="disabled"
+    title="pause"
+  >
+    Pause
+  </button>
+   
+  <button
+    title="stop"
+  >
+    Stop
+  </button>
+</div>
+`;
+
+exports[`Storyshots Controls started state 1`] = `
+<div
+  class="controls"
+>
+  <button
+    disabled="disabled"
+    title="start"
+  >
+    Start
+  </button>
+   
+  <button
+    title="pause"
+  >
+    Pause
+  </button>
+   
+  <button
+    title="stop"
+  >
+    Stop
+  </button>
+</div>
+`;
+
+exports[`Storyshots Controls stopped state 1`] = `
+<div
+  class="controls"
+>
+  <button
+    title="start"
+  >
+    Start
+  </button>
+   
+  <button
+    disabled="disabled"
+    title="pause"
+  >
+    Pause
+  </button>
+   
+  <button
+    disabled="disabled"
+    title="stop"
+  >
+    Stop
+  </button>
+</div>
+`;
+
+exports[`Storyshots Countdown rest state 1`] = `
+<div
+  style="text-align: center;"
+>
+  <div
+    style="text-align: center;"
+  >
+    <div
+      style="text-align: center;"
+    >
+      <div
+        class="timer rest"
+      >
+        <h1
+          class="digits"
+        >
+          <span>
+            05:00
+          </span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Countdown work state 1`] = `
+<div
+  style="text-align: center;"
+>
+  <div
+    style="text-align: center;"
+  >
+    <div
+      style="text-align: center;"
+    >
+      <div
+        class="timer work"
+      >
+        <h1
+          class="digits"
+        >
+          <span>
+            01:00
+          </span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots State state toggle 1`] = `
+<h3>
+  Work!
+</h3>
+`;
